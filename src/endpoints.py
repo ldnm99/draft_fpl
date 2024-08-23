@@ -1,25 +1,25 @@
-API_BASE_URL = "https://draft.fantasy.premierleague.com/api/" 
+API_ENDPOINT = "https://draft.fantasy.premierleague.com/api/" 
 
-API_URLS = {
-    'game':'{}game/'.format(API_BASE_URL),
-    'dynamic': "{}bootstrap-dynamic/".format(API_BASE_URL),
-    "static": "{}bootstrap-static/".format(API_BASE_URL),
+API_ENDPOINTS = {
+    'game':'{}game/'.format(API_ENDPOINT),
+    'dynamic': "{}bootstrap-dynamic/".format(API_ENDPOINT),
+    "static": "{}bootstrap-static/".format(API_ENDPOINT),
 
-    'details':'{}league/70113/details/'.format(API_BASE_URL),
-    'element':'{}league/70113/element-status/'.format(API_BASE_URL),
-    'trades' :'{}league/70113/trades/'.format(API_BASE_URL),
-    'status' :'{}pl/event-status/'.format(API_BASE_URL),
-    'transactions' :'{}league/70113/transactions/'.format(API_BASE_URL),
+    'details':'{}league/70113/details/'.format(API_ENDPOINT),
+    'element':'{}league/70113/element-status/'.format(API_ENDPOINT),
+    'trades' :'{}league/70113/trades/'.format(API_ENDPOINT),
+    'status' :'{}pl/event-status/'.format(API_ENDPOINT),
+    'transactions' :'{}league/70113/transactions/'.format(API_ENDPOINT),
     
 
-    "fixtures": "{}fixtures/".format(API_BASE_URL),
-    "gameweeks": "{}events/".format(API_BASE_URL),
-    "gameweek_fixtures": "{}fixtures/?event={{}}".format(API_BASE_URL),
-    "gameweek_live": "{}event/{{}}/live".format(API_BASE_URL),
-    "league_classic": "{}leagues-classic/{{}}/standings/".format(API_BASE_URL),
-    "players": "{}elements/".format(API_BASE_URL),
-    "player": "{}element-summary/{{}}/".format(API_BASE_URL),
-    "settings": "{}game-settings/".format(API_BASE_URL),
+    "fixtures": "{}fixtures/".format(API_ENDPOINT),
+    "gameweeks": "{}events/".format(API_ENDPOINT),
+    "gameweek_fixtures": "{}fixtures/?event={{}}".format(API_ENDPOINT),
+    "gameweek_live": "{}event/{{}}/live".format(API_ENDPOINT),
+    "league_classic": "{}leagues-classic/{{}}/standings/".format(API_ENDPOINT),
+    "players": "{}elements/".format(API_ENDPOINT),
+    "player": "{}element-summary/{{}}/".format(API_ENDPOINT),
+    "settings": "{}game-settings/".format(API_ENDPOINT),
 }
 
 PICKS_FORMAT = "{} {}{}"
