@@ -1,0 +1,226 @@
+ID_x,First Name_x,Last Name_x,Team,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,starts,expected_goals,expected_assists,expected_goal_involvements,expected_goals_conceded,total_points,in_dreamteam,gameweek,team_id,ID_y,First Name_y,Last Name_y,short_name,waiver_pick,Team Name
+9,Gabriel,Martinelli Silva,1,90,0,0,1,0,0,0,0,0,0,0,0,16,13.6,36.7,25.0,7.5,1,0.08,0.19,0.27,0.47,3,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+47,Emiliano,Martínez Romero,2,90,0,0,0,1,0,0,0,0,0,3,0,11,25.8,0.0,0.0,2.6,1,0.0,0.0,0.0,2.46,3,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+82,Dominic,Solanke-Mitchell,18,90,0,0,0,1,0,0,0,0,0,0,0,17,19.0,15.3,61.0,9.5,1,0.34,0.15,0.49,1.02,2,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+181,Christopher,Nkunku,6,57,0,0,0,1,0,0,0,0,0,0,0,6,7.8,13.5,13.0,3.4,1,0.15,0.06,0.21,0.66,1,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+182,Cole,Palmer,6,90,0,0,0,2,0,0,0,0,0,0,0,18,20.4,37.8,10.0,6.8,1,0.07,0.19,0.26,0.77,2,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+200,Marc,Guéhi,7,90,0,0,0,2,0,0,0,1,0,0,0,9,21.0,2.6,0.0,2.4,1,0.0,0.02,0.02,1.59,0,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+317,Diogo,Teixeira da Silva,12,78,1,0,1,0,0,0,0,0,0,0,0,24,36.8,4.9,41.0,8.3,1,0.95,0.04,0.99,0.41,8,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+350,Joško,Gvardiol,13,90,0,0,1,0,0,0,0,0,0,0,1,30,23.2,3.3,5.0,3.2,1,0.03,0.02,0.05,1.01,7,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+361,Rúben,Gato Alves Dias,13,90,0,0,1,0,0,0,0,0,0,0,0,27,14.2,0.5,0.0,1.5,1,0.0,0.0,0.0,1.01,6,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+401,Alexander,Isak,15,90,0,1,1,0,0,0,0,0,0,0,0,22,25.6,10.8,6.0,4.2,1,0.0,0.08,0.08,1.77,5,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+413,Nick,Pope,15,90,0,0,1,0,0,0,0,0,0,3,2,27,25.2,0.0,0.0,2.5,1,0.0,0.0,0.0,1.77,9,True,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+415,Fabian,Schär,15,27,0,0,0,0,0,0,0,0,1,0,0,-8,0.0,0.3,5.0,0.1,1,0.04,0.0,0.04,0.2,-2,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+503,Son,Heung-min,18,90,0,0,0,1,0,0,0,0,0,0,0,18,12.6,32.2,22.0,6.7,1,0.03,0.3,0.33,0.96,2,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+578,Riccardo,Calafiori,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+589,Niclas,Füllkrug,19,17,0,0,0,1,0,0,0,0,0,0,0,2,1.2,0.4,0.0,0.2,0,0.0,0.0,0.0,0.27,1,False,1,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+6,Jurriën,Timber,1,21,0,0,0,0,0,0,0,0,0,0,0,2,0.0,0.8,8.0,0.8,0,0.02,0.01,0.03,0.15,1,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+18,William,Saliba,1,90,0,0,1,0,0,0,0,0,0,0,0,26,14.8,0.9,0.0,1.6,1,0.0,0.0,0.0,0.47,6,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+108,Ivan,Toney,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+207,Jean-Philippe,Mateta,7,45,0,0,0,1,0,0,0,0,0,0,0,1,0.0,3.1,4.0,0.7,1,0.0,0.01,0.01,0.5,1,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+210,Tyrick,Mitchell,7,90,0,0,0,2,0,0,0,0,0,0,0,6,13.8,27.0,6.0,4.7,1,0.12,0.03,0.15,1.59,1,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+248,Bernd,Leno,9,90,0,0,0,1,0,0,0,0,0,4,0,12,33.0,0.0,0.0,3.3,1,0.0,0.0,0.0,2.43,3,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+321,Cody,Gakpo,12,11,0,0,0,0,0,0,0,1,0,0,0,-1,0.0,1.8,6.0,0.8,0,0.0,0.0,0.0,0.04,0,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+328,Mohamed,Salah,12,90,1,1,1,0,0,0,0,0,0,0,3,38,58.0,24.4,70.0,15.2,1,0.7,0.15,0.85,0.45,14,True,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+339,Virgil,van Dijk,12,90,0,0,1,0,0,0,0,0,0,0,0,24,8.8,1.5,4.0,1.4,1,0.0,0.01,0.01,0.45,6,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+341,Nathan,Aké,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+342,Bernardo,Veiga de Carvalho e Silva,13,90,0,1,1,0,0,0,0,0,0,0,0,26,32.0,38.1,30.0,10.0,1,0.13,0.2,0.33,1.01,6,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+347,Ederson,Santana de Moraes,13,90,0,0,1,0,0,0,0,0,0,3,1,30,19.6,0.0,0.0,2.0,1,0.0,0.0,0.0,1.01,8,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+360,Rodrigo 'Rodri',Hernandez,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+372,Alejandro,Garnacho,14,29,0,1,0,0,0,0,0,0,0,0,0,11,21.2,25.0,9.0,5.5,0,0.68,0.09,0.77,0.23,4,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+525,Mohammed,Kudus,19,90,0,0,0,2,0,0,0,0,0,0,0,11,7.6,27.5,22.0,5.7,1,0.08,0.47,0.55,2.03,2,False,1,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+3,Gabriel,dos Santos Magalhães,1,90,0,0,1,0,0,0,0,0,0,0,0,22,13.8,1.4,8.0,2.3,1,0.12,0.02,0.14,0.47,6,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+4,Kai,Havertz,1,90,1,1,1,0,0,0,0,0,0,0,3,48,54.8,24.1,46.0,12.5,1,0.45,0.04,0.49,0.47,12,True,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+268,Liam,Delap,10,73,0,0,0,2,0,0,0,0,0,0,0,8,6.4,20.7,8.0,3.5,1,0.0,0.0,0.0,2.07,2,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+310,Alisson,Ramses Becker,12,90,0,0,1,0,0,0,0,0,0,2,1,28,18.4,0.0,0.0,1.8,1,0.0,0.0,0.0,0.45,7,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+311,Trent,Alexander-Arnold,12,76,0,0,1,0,0,0,0,0,0,0,2,31,9.0,43.7,3.0,5.6,1,0.06,1.0,1.06,0.41,8,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+326,Ibrahima,Konaté,12,45,0,0,0,0,0,0,0,0,0,0,0,12,14.2,0.3,0.0,1.5,0,0.0,0.0,0.0,0.15,1,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+327,Luis,Díaz,12,90,0,0,1,0,0,0,0,0,0,0,0,13,9.6,37.1,31.0,7.8,1,0.46,0.38,0.84,0.45,3,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+345,Kevin,De Bruyne,13,90,0,0,1,0,0,0,0,0,0,0,0,14,5.0,15.3,4.0,2.4,1,0.07,0.32,0.39,1.01,3,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+363,Kyle,Walker,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+366,Bruno,Borges Fernandes,14,90,0,0,1,0,0,0,0,0,0,0,0,10,15.0,8.3,49.0,7.2,1,1.19,0.03,1.22,0.44,3,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+369,Diogo,Dalot Teixeira,14,90,0,0,1,0,0,0,0,0,0,0,1,26,13.4,4.8,0.0,1.8,1,0.0,0.02,0.02,0.44,7,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+385,Marcus,Rashford,14,90,0,0,1,0,0,0,0,0,0,0,0,5,4.6,14.8,8.0,2.7,1,0.0,0.11,0.11,0.44,3,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+447,Chris,Wood,16,71,1,0,1,0,0,0,0,0,0,0,3,30,32.2,5.7,21.0,5.9,1,0.71,0.02,0.73,0.63,9,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+492,Dejan,Kulusevski,18,11,0,0,0,0,0,0,0,0,0,0,0,0,2.4,1.3,22.0,2.6,0,0.0,0.17,0.17,0.12,1,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+508,Guglielmo,Vicario,18,90,0,0,0,1,0,0,0,0,0,2,0,16,26.0,0.0,0.0,2.6,1,0.0,0.0,0.0,1.02,2,False,1,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+13,Martin,Ødegaard,1,90,0,0,1,0,0,0,0,0,0,0,0,16,15.0,24.0,15.0,5.4,1,0.02,0.06,0.08,0.47,3,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+15,David,Raya Martin,1,90,0,0,1,0,0,0,0,0,0,3,1,28,28.0,0.0,0.0,2.8,1,0.0,0.0,0.0,0.47,8,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+24,Benjamin,White,1,90,0,0,1,0,0,0,0,0,0,0,0,22,5.8,1.3,8.0,1.5,1,0.07,0.06,0.13,0.47,6,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+45,Ian,Maatsen,2,16,0,0,0,0,0,0,0,0,0,0,0,5,8.8,10.5,0.0,1.9,0,0.0,0.04,0.04,1.06,1,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+136,Mitoma,Kaoru,5,88,1,0,1,0,0,0,0,0,0,0,0,27,48.2,4.1,80.0,13.2,1,0.97,0.04,1.01,0.45,8,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+180,Nicolas,Jackson,6,65,0,0,0,1,0,0,0,0,0,0,0,3,4.6,23.6,23.0,5.1,1,0.47,0.06,0.53,0.66,2,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+235,Jordan,Pickford,8,90,0,0,0,3,0,0,0,0,0,2,0,2,23.8,0.0,0.0,2.4,1,0.0,0.02,0.02,1.43,1,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+335,Andrew,Robertson,12,78,0,0,1,0,0,0,0,0,0,0,0,24,12.0,17.1,4.0,3.3,1,0.0,0.13,0.13,0.41,6,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+348,Phil,Foden,13,45,0,0,0,0,0,0,0,0,0,0,0,6,9.0,3.7,0.0,1.3,0,0.0,0.01,0.01,0.72,1,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+351,Erling,Haaland,13,90,1,0,1,0,0,0,0,1,0,0,2,31,36.4,0.6,38.0,7.5,1,0.28,0.0,0.28,1.01,7,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+398,Anthony,Gordon,15,69,0,0,1,0,0,0,0,0,0,0,0,12,2.4,12.8,2.0,1.7,1,0.0,0.02,0.02,1.33,3,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+399,Lewis,Hall,15,69,0,0,1,0,0,0,0,1,0,0,0,17,14.2,14.7,2.0,3.1,1,0.0,0.02,0.02,1.33,5,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+494,James,Maddison,18,78,0,1,0,1,0,0,0,0,0,0,0,25,31.6,52.8,15.0,9.9,1,0.02,0.98,1.0,0.9,5,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+495,Pedro,Porro,18,90,1,0,0,1,0,0,0,0,0,0,1,28,50.0,59.3,21.0,13.0,1,0.09,0.32,0.41,0.96,9,True,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+497,Richarlison,de Andrade,18,1,0,0,0,0,0,0,0,0,0,0,0,-1,0.0,1.0,7.0,0.7,0,0.19,0.0,0.19,0.06,1,False,1,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+17,Bukayo,Saka,1,79,1,1,1,0,0,0,0,1,0,0,2,42,64.2,61.7,78.0,20.4,1,0.35,0.37,0.72,0.32,12,True,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+44,Ezri,Konsa Ngoyo,2,90,0,0,0,1,0,0,0,0,0,0,0,10,13.4,14.1,7.0,3.5,1,0.07,0.01,0.08,2.46,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+58,Ollie,Watkins,2,61,0,0,0,1,0,0,0,0,0,0,0,3,0.0,0.2,4.0,0.3,1,0.0,0.0,0.0,1.28,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+91,Mark,Flekken,4,90,0,0,0,1,0,0,0,0,0,6,0,22,46.4,0.0,0.0,4.6,1,0.0,0.0,0.0,1.17,4,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+99,Bryan,Mbeumo,4,89,1,0,0,1,0,0,0,0,0,0,2,35,40.8,50.2,17.0,10.8,1,0.09,0.45,0.54,1.17,9,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+199,Eberechi,Eze,7,90,0,0,0,2,0,0,0,0,0,0,0,14,12.4,6.8,65.0,8.4,1,0.41,0.05,0.46,1.59,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+211,Daniel,Muñoz,7,90,0,1,0,2,0,0,0,0,0,0,0,11,12.2,13.4,6.0,3.2,1,0.0,0.02,0.02,1.59,4,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+244,Timothy,Castagne,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+251,Rodrigo,Muniz Carvalho,9,77,0,0,1,0,0,0,0,0,0,0,0,10,9.4,20.4,28.0,5.8,1,0.11,0.0,0.11,1.57,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+316,Darwin,Núñez Ribeiro,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+383,André,Onana,14,90,0,0,1,0,0,0,0,0,0,2,0,25,16.8,0.0,0.0,1.7,1,0.0,0.0,0.0,0.44,6,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+395,Dan,Burn,15,90,0,0,1,0,0,0,0,1,0,0,0,18,17.4,0.0,0.0,1.7,1,0.0,0.0,0.0,1.77,5,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+418,Kieran,Trippier,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+433,Morgan,Gibbs-White,16,90,0,0,0,1,0,0,0,0,0,0,0,8,9.8,41.3,14.0,6.5,1,0.1,0.07,0.17,1.22,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+514,Jarrod,Bowen,19,72,0,0,0,1,0,0,0,0,0,0,0,3,4.6,16.8,2.0,2.3,1,0.0,0.07,0.07,1.76,2,False,1,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+9,Gabriel,Martinelli Silva,1,64,0,0,1,0,0,0,0,0,0,0,0,9,6.4,26.3,10.0,4.3,1,0.0,0.41,0.41,1.12,3,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+25,Oleksandr,Zinchenko,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+47,Emiliano,Martínez Romero,2,90,0,0,0,2,0,0,0,0,0,2,0,10,18.4,0.0,0.0,1.8,1,0.0,0.0,0.0,0.87,1,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+82,Dominic,Solanke-Mitchell,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+110,Yoane,Wissa,4,72,0,0,0,2,0,0,0,0,0,0,0,7,5.0,0.8,2.0,0.8,1,0.0,0.01,0.01,2.52,2,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+163,Marc,Cucurella Saseta,6,82,0,0,0,2,0,0,0,1,0,0,0,7,9.2,5.2,0.0,1.4,1,0.0,0.18,0.18,1.8,0,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+182,Cole,Palmer,6,82,1,3,0,2,0,0,0,1,0,0,2,61,82.8,43.8,21.0,14.8,1,0.67,0.15,0.82,1.8,17,True,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+233,Amadou,Onana,2,75,0,0,0,1,0,0,0,1,0,0,0,2,0.6,2.0,6.0,0.9,1,0.11,0.01,0.12,0.49,1,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+317,Diogo,Teixeira da Silva,12,71,0,1,1,0,0,0,0,0,0,0,0,19,17.6,24.9,26.0,6.9,1,0.59,0.06,0.65,0.36,6,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+350,Joško,Gvardiol,13,90,0,0,0,1,0,0,0,0,0,0,0,14,15.4,7.8,2.0,2.5,1,0.0,0.04,0.04,0.29,2,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+361,Rúben,Gato Alves Dias,13,90,0,0,0,1,0,0,0,1,0,0,0,8,19.2,8.5,0.0,2.8,1,0.0,0.05,0.05,0.29,1,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+401,Alexander,Isak,15,90,0,0,0,1,0,0,0,0,0,0,0,8,6.6,11.6,49.0,6.7,1,0.26,0.03,0.29,2.23,2,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+413,Nick,Pope,15,90,0,0,0,1,0,0,0,0,0,3,0,14,25.6,0.0,0.0,2.6,1,0.0,0.0,0.0,2.23,3,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+415,Fabian,Schär,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+503,Son,Heung-min,18,90,2,0,1,0,0,0,0,0,0,0,3,55,75.8,15.8,43.0,13.5,1,1.14,0.05,1.19,1.0,16,True,2,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+18,William,Saliba,1,90,0,0,1,0,0,0,0,0,0,0,0,24,23.8,1.2,0.0,2.5,1,0.0,0.01,0.01,1.28,6,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+148,Danny,Welbeck,5,78,1,0,0,1,0,0,0,0,0,0,3,38,40.8,23.7,59.0,12.4,1,1.11,0.02,1.13,1.32,9,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+207,Jean-Philippe,Mateta,7,90,0,0,0,2,0,0,0,0,0,0,0,5,4.8,25.3,8.0,3.8,1,0.3,0.23,0.53,1.39,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+210,Tyrick,Mitchell,7,90,0,0,0,2,0,0,0,0,0,0,0,7,22.0,28.8,4.0,5.5,1,0.0,0.08,0.08,1.39,1,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+248,Bernd,Leno,9,90,0,0,0,1,0,0,0,0,0,3,0,14,21.2,0.0,0.0,2.1,1,0.0,0.0,0.0,0.61,3,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+306,Jamie,Vardy,11,70,0,0,0,2,0,0,0,0,0,0,0,3,0.0,1.6,0.0,0.1,1,0.0,0.0,0.0,1.74,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+328,Mohamed,Salah,12,82,1,0,1,0,0,0,0,0,0,0,2,34,38.8,6.2,52.0,9.7,1,0.5,0.25,0.75,0.36,10,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+339,Virgil,van Dijk,12,90,0,0,1,0,0,0,0,0,0,0,1,31,20.0,1.1,17.0,3.8,1,0.02,0.01,0.03,0.36,7,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+342,Bernardo,Veiga de Carvalho e Silva,13,90,0,0,0,1,0,0,0,0,0,0,0,9,1.6,12.5,15.0,2.9,1,0.11,0.07,0.18,0.29,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+347,Ederson,Santana de Moraes,13,90,0,0,0,1,0,0,0,0,0,0,0,3,3.8,0.0,0.0,0.4,1,0.0,0.0,0.0,0.29,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+355,Rico,Lewis,13,90,0,0,0,1,0,0,0,0,0,0,0,9,7.0,8.8,24.0,4.0,1,0.53,0.06,0.59,0.29,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+372,Alejandro,Garnacho,14,25,0,0,0,1,0,0,0,0,0,0,0,0,3.4,11.4,16.0,3.1,0,0.71,0.06,0.77,0.76,1,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+505,Destiny,Udogie,18,72,0,0,1,0,0,0,0,0,0,0,0,30,5.0,4.2,4.0,1.3,1,0.0,0.01,0.01,1.0,6,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+525,Mohammed,Kudus,19,87,0,0,1,0,0,0,0,0,0,0,0,9,7.4,8.8,9.0,2.5,1,0.08,0.16,0.24,1.32,3,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+570,Abdul,Fatawu,11,90,0,0,0,2,0,0,0,0,0,0,0,11,13.4,4.8,20.0,3.8,1,0.06,0.0,0.06,1.78,2,False,2,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+3,Gabriel,dos Santos Magalhães,1,90,0,0,1,0,0,0,0,1,0,0,1,25,21.4,1.9,0.0,2.3,1,0.0,0.02,0.02,1.28,6,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+4,Kai,Havertz,1,90,0,0,1,0,0,0,0,0,0,0,0,-2,0.0,6.1,15.0,2.0,1,0.21,0.03,0.24,1.28,2,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+268,Liam,Delap,10,82,0,0,0,3,0,0,0,0,0,0,0,-3,1.6,0.9,6.0,0.9,1,0.0,0.01,0.01,3.3,2,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+310,Alisson,Ramses Becker,12,90,0,0,1,0,0,0,0,0,0,2,0,25,16.4,0.0,0.0,1.6,1,0.0,0.0,0.0,0.36,6,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+311,Trent,Alexander-Arnold,12,71,0,0,1,0,0,0,0,0,0,0,0,29,20.4,46.0,12.0,7.8,1,0.1,0.53,0.63,0.36,6,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+326,Ibrahima,Konaté,12,90,0,0,1,0,0,0,0,0,0,0,1,31,26.0,2.9,21.0,5.0,1,0.19,0.02,0.21,0.36,7,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+327,Luis,Díaz,12,71,1,1,1,0,0,0,0,0,0,0,3,51,68.6,48.7,44.0,16.1,1,0.87,0.17,1.04,0.36,14,True,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+340,Manuel,Akanji,13,90,0,0,0,1,0,0,0,0,0,0,0,13,23.4,28.8,2.0,5.4,1,0.0,0.16,0.16,0.29,2,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+345,Kevin,De Bruyne,13,89,1,1,0,1,0,0,0,0,0,0,2,48,61.4,71.8,17.0,15.0,1,0.81,0.65,1.46,0.29,12,True,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+366,Bruno,Borges Fernandes,14,78,0,0,0,1,0,0,0,0,0,0,0,15,10.4,37.7,11.0,5.9,1,0.07,0.73,0.8,1.5,2,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+369,Diogo,Dalot Teixeira,14,90,0,0,0,2,0,0,0,0,0,0,0,19,20.4,18.8,1.0,4.0,1,0.02,0.05,0.07,2.09,1,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+385,Marcus,Rashford,14,64,0,0,0,1,0,0,0,0,0,0,0,4,0.0,7.3,4.0,1.1,1,0.0,0.01,0.01,1.33,2,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+447,Chris,Wood,16,74,0,0,1,0,0,0,0,1,0,0,0,5,6.2,16.9,40.0,6.3,1,0.24,0.09,0.33,0.14,1,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+492,Dejan,Kulusevski,18,66,0,1,1,0,0,0,0,0,0,0,0,21,25.6,48.8,8.0,8.2,1,0.0,0.11,0.11,1.0,6,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+508,Guglielmo,Vicario,18,90,0,0,1,0,0,0,0,0,0,1,0,30,13.0,0.0,0.0,1.3,1,0.0,0.0,0.0,1.0,6,False,2,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+13,Martin,Ødegaard,1,90,0,0,1,0,0,0,0,1,0,0,0,4,9.4,34.2,20.0,6.4,1,0.26,0.6,0.86,1.28,2,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+15,David,Raya Martin,1,90,0,0,1,0,0,0,0,0,0,3,3,27,28.2,0.0,0.0,2.8,1,0.0,0.0,0.0,1.28,10,True,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+24,Benjamin,White,1,90,0,0,1,0,0,0,0,0,0,0,0,23,9.2,6.8,4.0,2.0,1,0.0,0.02,0.02,1.28,6,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+45,Ian,Maatsen,2,14,0,0,0,1,0,0,0,0,0,0,0,0,4.4,15.1,0.0,2.0,0,0.0,0.09,0.09,0.38,1,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+136,Mitoma,Kaoru,5,89,0,1,0,1,0,0,0,0,0,0,1,20,16.6,13.5,6.0,3.6,1,0.0,0.58,0.58,1.32,6,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+235,Jordan,Pickford,8,90,0,0,0,4,0,0,0,0,0,3,0,-5,21.2,0.1,0.0,2.1,1,0.0,0.0,0.0,2.43,1,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+335,Andrew,Robertson,12,90,0,0,1,0,0,0,0,0,0,0,0,29,22.0,47.1,52.0,12.1,1,0.3,0.19,0.49,0.36,6,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+348,Phil,Foden,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+351,Erling,Haaland,13,89,3,0,0,1,0,0,0,0,0,0,3,80,97.2,3.3,83.0,18.4,1,1.79,0.04,1.83,0.29,17,True,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+389,Joshua,Zirkzee,14,45,0,0,0,1,0,0,0,0,0,0,0,5,11.4,11.0,4.0,2.6,0,0.0,0.03,0.03,1.28,1,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+398,Anthony,Gordon,15,88,1,0,0,1,0,0,0,0,0,0,3,38,45.8,59.8,40.0,14.6,1,0.65,0.38,1.03,2.15,10,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+399,Lewis,Hall,15,21,0,0,0,0,0,0,0,0,0,0,0,6,17.2,15.3,2.0,3.5,0,0.0,0.1,0.1,0.42,1,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+494,James,Maddison,18,78,0,1,1,0,0,0,0,0,0,0,0,25,38.6,41.8,31.0,11.1,1,0.41,0.38,0.79,1.0,6,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+495,Pedro,Porro,18,90,0,0,1,0,0,0,0,0,0,0,0,23,25.2,21.5,1.0,4.8,1,0.03,0.11,0.14,1.0,6,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+497,Richarlison,de Andrade,18,24,0,0,0,0,0,0,0,0,0,0,0,5,3.2,1.2,0.0,0.4,0,0.0,0.0,0.0,0.0,1,False,2,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+17,Bukayo,Saka,1,87,0,1,1,0,0,0,0,0,0,0,0,21,27.8,27.4,27.0,8.2,1,0.05,0.1,0.15,1.25,6,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+44,Ezri,Konsa Ngoyo,2,90,0,0,0,2,0,0,0,0,0,0,0,7,11.2,1.0,2.0,1.4,1,0.0,0.01,0.01,0.87,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+58,Ollie,Watkins,2,64,0,0,1,0,0,0,0,0,0,0,0,-1,3.2,21.3,23.0,4.8,1,0.87,0.0,0.87,0.36,2,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+91,Mark,Flekken,4,90,0,0,0,2,0,0,0,0,0,6,0,16,54.8,0.0,0.0,5.5,1,0.0,0.0,0.0,2.65,3,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+99,Bryan,Mbeumo,4,90,0,0,0,2,0,0,0,1,0,0,0,6,5.4,17.7,7.0,3.0,1,0.03,0.12,0.15,2.65,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+199,Eberechi,Eze,7,90,0,0,0,2,0,0,0,0,0,0,0,14,16.8,56.2,36.0,10.9,1,0.45,0.17,0.62,1.39,2,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+211,Daniel,Muñoz,7,90,0,0,0,2,0,0,0,0,0,0,0,9,11.8,4.2,4.0,2.0,1,0.0,0.02,0.02,1.39,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+251,Rodrigo,Muniz Carvalho,9,79,0,0,0,1,0,0,0,0,0,0,0,8,7.6,20.8,72.0,10.0,1,0.58,0.01,0.59,0.46,2,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+316,Darwin,Núñez Ribeiro,12,18,0,0,0,0,0,0,0,0,0,0,0,2,1.4,3.8,2.0,0.7,0,0.0,0.0,0.0,0.0,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+380,Lisandro,Martínez,14,90,0,0,0,2,0,0,0,0,0,0,0,8,10.2,4.3,0.0,1.5,1,0.0,0.19,0.19,2.09,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+383,André,Onana,14,90,0,0,0,2,0,0,0,0,0,2,0,14,25.4,0.0,0.0,2.5,1,0.0,0.0,0.0,2.09,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+395,Dan,Burn,15,90,0,0,0,1,0,0,0,1,0,0,0,3,24.2,1.3,27.0,5.3,1,0.28,0.01,0.29,2.23,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+418,Kieran,Trippier,15,32,0,0,0,0,0,0,0,0,0,0,0,4,7.2,4.9,0.0,1.2,0,0.0,0.02,0.02,1.07,1,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+433,Morgan,Gibbs-White,16,90,1,0,1,0,0,0,0,0,0,0,2,35,48.8,34.2,55.0,13.8,1,0.47,0.02,0.49,0.14,10,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+514,Jarrod,Bowen,19,90,1,0,1,0,0,0,0,0,0,0,0,26,47.2,63.1,21.0,13.1,1,0.1,0.25,0.35,1.35,8,False,2,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+9,Gabriel,Martinelli Silva,1,16,0,0,0,0,0,0,0,0,0,0,0,2,0.0,0.5,0.0,0.0,0,0.0,0.0,0.0,0.65,1,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+47,Emiliano,Martínez Romero,2,90,0,0,0,1,0,0,0,0,0,2,0,12,15.6,0.0,0.0,1.6,1,0.0,0.0,0.0,0.45,2,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+52,Pau,Torres,2,90,0,0,0,1,0,0,0,0,0,0,0,7,8.8,1.1,0.0,1.0,1,0.0,0.0,0.0,0.45,2,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+82,Dominic,Solanke-Mitchell,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+110,Yoane,Wissa,4,90,1,0,0,1,0,0,0,0,0,0,2,36,41.2,37.1,69.0,14.7,1,1.09,0.25,1.34,1.57,8,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+163,Marc,Cucurella Saseta,6,90,0,0,0,1,0,0,0,0,0,0,0,9,17.6,4.3,2.0,2.4,1,0.0,0.01,0.01,0.44,2,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+182,Cole,Palmer,6,90,0,1,0,1,0,0,0,1,0,0,2,29,30.8,62.2,14.0,10.7,1,0.11,0.7,0.81,0.44,6,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+233,Amadou,Onana,2,61,1,0,1,0,0,0,0,1,0,0,2,23,36.0,18.0,43.0,9.7,1,0.45,0.03,0.48,0.17,9,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+255,Antonee,Robinson,9,90,0,1,0,1,0,0,0,1,0,0,0,21,29.0,16.2,0.0,4.5,1,0.0,0.06,0.06,0.45,4,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+317,Diogo,Teixeira da Silva,12,75,0,0,1,0,0,0,0,0,0,0,0,-2,0.0,2.0,12.0,1.2,1,0.07,0.01,0.08,0.83,3,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+350,Joško,Gvardiol,13,87,0,0,0,1,0,0,0,0,0,0,0,15,21.8,8.6,33.0,6.3,1,0.1,0.45,0.55,0.64,2,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+361,Rúben,Gato Alves Dias,13,90,0,0,0,1,1,0,0,0,0,0,0,3,16.0,13.6,13.0,4.3,1,0.28,0.02,0.3,0.73,0,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+401,Alexander,Isak,15,90,1,0,0,1,0,0,0,0,0,0,3,32,34.6,1.3,45.0,8.1,1,1.0,0.01,1.01,1.26,9,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+413,Nick,Pope,15,90,0,0,0,1,0,0,0,0,0,6,0,16,34.8,0.0,0.0,3.5,1,0.0,0.0,0.0,1.26,4,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+503,Son,Heung-min,18,90,0,0,0,2,0,0,0,0,0,0,1,20,15.2,40.0,19.0,7.4,1,0.1,0.18,0.28,1.57,3,False,3,295362,297743,Lourenço,Marvão,LM,2,Los Porro Hermanos
+18,William,Saliba,1,90,0,0,0,1,0,0,0,0,0,0,0,10,22.0,1.3,0.0,2.3,1,0.0,0.01,0.01,1.83,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+78,Antoine,Semenyo,3,90,1,0,0,2,0,0,0,1,0,0,0,23,40.4,15.8,59.0,11.5,1,0.5,0.03,0.53,1.97,6,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+83,Marcus,Tavernier,3,90,0,0,0,2,0,0,0,0,0,0,0,6,21.0,30.8,81.0,13.3,1,0.66,0.22,0.88,1.97,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+148,Danny,Welbeck,5,84,0,0,0,1,0,0,0,0,0,0,0,3,0.4,2.8,6.0,0.9,1,0.1,0.01,0.11,2.08,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+177,Noni,Madueke,6,85,0,0,0,1,0,0,0,0,0,0,0,-2,5.0,3.9,41.0,5.0,1,0.59,0.04,0.63,0.25,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+207,Jean-Philippe,Mateta,7,68,0,0,0,1,0,0,0,0,0,0,0,6,0.0,1.4,2.0,0.2,1,0.02,0.0,0.02,1.87,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+245,Issa,Diop,9,90,0,0,0,1,0,0,0,0,0,0,0,5,13.8,11.3,11.0,3.6,1,0.17,0.01,0.18,0.45,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+248,Bernd,Leno,9,90,0,0,0,1,0,0,0,0,0,3,0,14,27.8,0.0,0.0,2.8,1,0.0,0.0,0.0,0.45,3,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+306,Jamie,Vardy,11,90,0,0,0,2,0,0,0,1,0,0,0,1,0.0,11.5,6.0,1.6,1,0.0,0.02,0.02,1.55,1,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+328,Mohamed,Salah,12,90,1,2,1,0,0,0,0,0,0,0,3,60,76.8,42.1,42.0,16.1,1,0.5,0.63,1.13,1.36,17,True,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+339,Virgil,van Dijk,12,90,0,0,1,0,0,0,0,1,0,0,0,28,30.4,11.0,0.0,4.1,1,0.0,0.03,0.03,1.36,5,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+342,Bernardo,Veiga de Carvalho e Silva,13,90,0,1,0,1,0,0,0,0,0,0,2,28,22.6,56.5,45.0,12.4,1,0.29,0.5,0.79,0.73,7,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+347,Ederson,Santana de Moraes,13,90,0,0,0,1,0,0,0,0,0,2,0,12,19.2,0.0,0.0,1.9,1,0.0,0.0,0.0,0.73,2,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+355,Rico,Lewis,13,90,0,1,0,1,0,0,0,0,0,0,1,24,35.6,16.8,8.0,6.0,1,0.09,0.09,0.18,0.73,6,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+505,Destiny,Udogie,18,90,0,0,0,2,0,0,0,0,0,0,0,8,10.2,15.2,2.0,2.7,1,0.0,0.02,0.02,1.57,1,False,3,302714,305243,Clev,Clevinson Rodriguez,CC,3,Eze Come Eze Go
+3,Gabriel,dos Santos Magalhães,1,90,0,0,0,1,0,0,0,0,0,0,0,17,20.8,20.8,9.0,5.1,1,0.12,0.01,0.13,1.83,2,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+4,Kai,Havertz,1,90,1,0,0,1,0,0,0,0,0,0,2,34,47.0,24.8,30.0,10.2,1,0.77,0.05,0.82,1.83,8,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+268,Liam,Delap,10,80,1,0,0,1,0,0,0,0,0,0,1,30,38.2,13.3,33.0,8.5,1,0.21,0.0,0.21,0.9,7,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+310,Alisson,Ramses Becker,12,90,0,0,1,0,0,0,0,0,0,3,1,31,26.4,0.0,0.0,2.6,1,0.0,0.0,0.0,1.36,8,True,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+311,Trent,Alexander-Arnold,12,75,0,0,1,0,0,0,0,0,0,0,0,17,8.4,5.4,0.0,1.4,1,0.0,0.01,0.01,0.83,6,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+326,Ibrahima,Konaté,12,90,0,0,1,0,0,0,0,0,0,0,0,28,12.8,1.0,4.0,1.8,1,0.04,0.0,0.04,1.36,6,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+327,Luis,Díaz,12,65,2,0,1,0,0,0,0,0,0,0,2,45,67.6,1.3,56.0,12.5,1,0.6,0.01,0.61,0.49,15,True,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+340,Manuel,Akanji,13,90,0,0,0,1,0,0,0,1,0,0,0,5,18.8,9.8,0.0,2.9,1,0.0,0.04,0.04,0.73,1,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+345,Kevin,De Bruyne,13,87,0,0,0,1,0,0,0,1,0,0,0,20,18.6,92.3,46.0,15.7,1,0.27,0.64,0.91,0.64,1,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+366,Bruno,Borges Fernandes,14,90,0,0,0,3,0,0,0,0,0,0,0,16,11.6,9.6,3.0,2.4,1,0.02,0.07,0.09,1.73,2,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+369,Diogo,Dalot Teixeira,14,90,0,0,0,3,0,0,0,0,0,0,0,5,19.4,1.8,0.0,2.1,1,0.0,0.02,0.02,1.73,1,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+385,Marcus,Rashford,14,90,0,0,0,3,0,0,0,0,0,0,0,18,12.8,33.0,8.0,5.4,1,0.0,0.59,0.59,1.73,2,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+447,Chris,Wood,16,90,1,0,0,1,0,0,0,0,0,0,3,31,41.2,7.3,81.0,13.0,1,0.47,0.01,0.48,0.74,9,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+492,Dejan,Kulusevski,18,90,0,0,0,2,0,0,0,0,0,0,0,8,12.8,43.3,25.0,8.1,1,0.08,0.11,0.19,1.57,2,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+508,Guglielmo,Vicario,18,90,0,0,0,2,0,0,0,0,0,1,0,4,9.8,0.0,0.0,1.0,1,0.0,0.0,0.0,1.57,1,False,3,307954,310584,Tiago,Duarte,TD,5,Avengers Assemble
+13,Martin,Ødegaard,1,73,0,0,0,1,0,0,0,0,0,0,0,9,10.0,16.8,25.0,5.2,1,0.18,0.08,0.26,1.18,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+15,David,Raya Martin,1,90,0,0,0,1,0,0,0,1,0,3,0,8,33.6,0.0,0.0,3.4,1,0.0,0.01,0.01,1.83,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+24,Benjamin,White,1,90,0,0,0,1,0,0,0,0,0,0,0,8,22.0,0.8,5.0,2.8,1,0.04,0.0,0.04,1.83,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+45,Ian,Maatsen,2,11,0,0,0,0,0,0,0,0,0,0,0,2,2.0,0.0,2.0,0.4,0,0.01,0.0,0.01,0.05,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+136,Mitoma,Kaoru,5,84,0,0,0,1,0,0,0,0,0,0,0,13,5.8,27.0,12.0,4.5,1,0.04,0.14,0.18,2.08,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+180,Nicolas,Jackson,6,90,1,0,0,1,0,0,0,1,0,0,1,27,37.0,0.6,77.0,11.5,1,1.34,0.0,1.34,0.44,6,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+235,Jordan,Pickford,8,90,0,0,0,3,0,0,0,0,0,4,0,5,29.0,0.0,0.0,2.9,1,0.0,0.0,0.0,2.22,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+335,Andrew,Robertson,12,82,0,0,1,0,0,0,0,0,0,0,0,25,9.6,22.0,0.0,3.2,1,0.0,0.07,0.07,1.34,6,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+351,Erling,Haaland,13,90,3,0,0,1,0,0,0,0,0,0,3,93,106.8,11.1,66.0,18.4,1,1.71,0.11,1.82,0.73,17,True,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+389,Joshua,Zirkzee,14,85,0,0,0,3,0,0,0,1,0,0,0,-6,0.8,4.0,39.0,4.4,1,0.88,0.02,0.9,1.3,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+398,Anthony,Gordon,15,90,0,0,0,1,0,0,0,0,0,0,0,5,12.2,43.3,2.0,5.8,1,0.0,0.31,0.31,1.26,2,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+399,Lewis,Hall,15,22,0,0,0,0,0,0,0,0,0,0,0,3,5.4,0.1,0.0,0.6,0,0.0,0.0,0.0,0.27,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+494,James,Maddison,18,81,0,0,0,2,0,0,0,1,0,0,0,13,16.2,32.3,26.0,7.5,1,0.07,0.07,0.14,1.57,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+495,Pedro,Porro,18,90,0,0,0,2,0,0,0,0,0,0,0,4,16.0,15.9,23.0,5.5,1,0.21,0.17,0.38,1.57,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+621,João,Félix Sequeira,6,32,0,0,0,0,0,0,0,0,0,0,0,4,6.8,2.3,7.0,1.6,0,0.03,0.01,0.04,0.31,1,False,3,318423,321105,Diogo,Santana,DS,4,De tu Madre FC
+17,Bukayo,Saka,1,90,0,1,0,1,0,0,0,0,0,0,1,21,34.8,21.2,88.0,14.4,1,0.95,0.2,1.15,1.83,6,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+36,Lucas,Digne,2,90,0,1,0,1,0,0,0,0,0,0,2,23,36.4,19.9,0.0,5.6,1,0.0,0.1,0.1,0.45,7,True,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+44,Ezri,Konsa Ngoyo,2,90,0,0,0,1,0,0,0,0,0,0,0,13,18.4,0.4,0.0,1.9,1,0.0,0.0,0.0,0.45,2,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+58,Ollie,Watkins,2,60,0,1,1,0,0,0,0,0,0,0,0,12,17.2,12.1,26.0,5.5,1,0.71,0.01,0.72,0.17,5,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+91,Mark,Flekken,4,90,0,0,0,1,0,0,0,0,0,5,0,18,37.4,0.0,0.0,3.7,1,0.0,0.0,0.0,1.57,3,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+99,Bryan,Mbeumo,4,90,2,0,0,1,0,0,0,1,0,0,3,64,82.8,41.0,54.0,17.8,1,0.81,0.34,1.15,1.57,14,True,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+199,Eberechi,Eze,7,90,1,0,0,1,0,0,0,0,0,0,3,31,38.6,17.8,19.0,7.5,1,0.19,0.06,0.25,2.27,10,True,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+211,Daniel,Muñoz,7,90,0,0,0,1,0,0,0,1,0,0,0,2,15.8,16.3,6.0,3.8,1,0.0,0.26,0.26,2.27,1,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+251,Rodrigo,Muniz Carvalho,9,78,0,0,0,1,0,0,0,0,0,0,0,6,2.6,0.5,21.0,2.4,1,0.34,0.01,0.35,0.36,2,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+316,Darwin,Núñez Ribeiro,12,14,0,0,0,0,0,0,0,0,0,0,0,3,2.4,1.1,1.0,0.5,0,0.15,0.0,0.15,0.53,1,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+380,Lisandro,Martínez,14,90,0,0,0,3,0,0,0,1,0,0,0,-5,9.6,1.3,4.0,1.5,1,0.34,0.01,0.35,1.73,0,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+383,André,Onana,14,90,0,0,0,3,0,0,0,0,0,0,0,-1,6.0,0.0,0.0,0.6,1,0.0,0.0,0.0,1.73,1,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+395,Dan,Burn,15,90,0,0,0,1,1,0,0,0,0,0,0,0,19.0,0.5,0.0,2.0,1,0.0,0.06,0.06,1.26,0,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+433,Morgan,Gibbs-White,16,90,0,0,0,1,0,0,0,1,0,0,0,13,14.6,36.7,55.0,10.6,1,0.13,0.7,0.83,0.74,1,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
+514,Jarrod,Bowen,19,85,0,1,0,3,0,0,0,0,0,0,0,20,12.8,26.1,24.0,6.3,1,0.08,0.22,0.3,2.78,5,False,3,319681,322369,Bernardo,Moura,BM,1,Jurojocav2
