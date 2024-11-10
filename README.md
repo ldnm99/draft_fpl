@@ -6,14 +6,14 @@ This repository provides Python scripts to access endpoints from the Fantasy Pre
 
 The **Premier Draft League API Access** project is designed to simplify access to Fantasy Premier League Draft data, enabling developers and fantasy sports enthusiasts to retrieve information such as:
 - Player details and statistics
-- League standings and transactions
-- Entry-level data for individual players in a league
+- League standings 
+- Entry-level data for individual players in a league (change the LEAGUE_ID to yours in league.py)
 
 ## Features
 
 - Fetch and process real-time Fantasy Premier League Draft data.
 - Access data for individual players, teams, and leagues.
-- View transactions, draft history, and player stats.
+- View draft history, and player stats.
 - Flexible and easy-to-use Python scripts for custom applications.
 
 ## Requirements
