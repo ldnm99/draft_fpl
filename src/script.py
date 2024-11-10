@@ -1,8 +1,8 @@
 import requests
 import csv
 from players import get_player_data
-from league  import get_league_standings
-from league  import get_user_teams
+from src.league  import get_league_standings
+from src.league  import get_user_teams
 
 session = requests.session()
 
