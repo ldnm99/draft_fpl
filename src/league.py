@@ -15,16 +15,14 @@ TEAMS_URL           = f"{BASE_URL}/entry/"
 #Endpoint to get the current gameweek
 GAME_STATUS_URL     = f"{BASE_URL}/game"
 
-#Transaction info endpoints
-ENTRY_URL           = f"{BASE_URL}/entry/"f"{LEAGUE_ID}"
-TRANSACTIONS_URL    = f"{ENTRY_URL}/transactions"
-
+#Returns the number of the current gameweek 
 def get_current_gw():
     from src.script import fetch_data
     data = fetch_data(GAME_STATUS_URL)
     current_gameweek = data['current_event']
     return current_gameweek
 
+#Returns the current league standings and saves into a CSV file
 def get_league_standings():
     from src.script import fetch_data
     from src.script import save_csv
@@ -45,6 +43,7 @@ def get_league_standings():
         save_csv('Data/league_standings.csv', headers, standings_data)
         return pd.DataFrame(columns=headers,data=standings_data)
     
+#Returns the teams of each league member for each gameweek and saves into a CSV file
 def get_user_teams(players, league):
     from src.script import fetch_data
     
@@ -82,23 +81,3 @@ def get_user_teams(players, league):
     final_df = pd.concat(all_player_data, ignore_index=True)
     return final_df
 
-def get_user_transactions(league_id):
-    from src.script import fetch_data
-    from src.script import save_csv
-    league_data = fetch_data(LEAGUE_DETAILS_URL.format(league_id=league_id))
-    
-    if league_data:
-        entries = league_data.get('league_entries', [])
-        for entry in entries:
-            entry_id = entry['entry_id']
-            transactions_data = fetch_data(TRANSACTIONS_URL.format(entry_id=entry_id))
-            
-            if transactions_data:
-                transactions = transactions_data.get('transactions', [])
-                transaction_list = [
-                    [transaction['element_in'], transaction['element_out'], transaction['resulting_balance'], transaction['type'], transaction['entry']]
-                    for transaction in transactions
-                ]
-                
-                headers = ['Element In', 'Element Out', 'Resulting Balance', 'Type', 'Entry']
-                save_csv(f'user_transactions_{entry_id}.csv', headers, transaction_list)

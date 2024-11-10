@@ -749,11 +749,11 @@ ID_x,First Name_x,Last Name_x,Team,Position,minutes,goals_scored,assists,clean_s
 541,Matheus,Santos Carneiro Da Cunha,20,4,90,0,1,0,2,0,0,0,0,0,0,1,29,27.2,40.8,13.0,8.1,1,0.11,0.22,0.33,2.51,6,False,10,10.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
 568,Arijanet,Muric,10,1,90,0,0,0,1,0,0,0,1,0,4,0,8,25.4,0.0,0.0,2.5,1,0.0,0.0,0.0,1.55,2,False,10,1.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
 593,Matthijs,de Ligt,14,2,90,0,0,0,1,0,0,0,0,0,0,0,9,14.4,0.3,0.0,1.5,1,0.0,0.0,0.0,1.11,2,False,10,14.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
-9,Gabriel,Martinelli Silva,1,3,20,0,0,0,0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,6.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
+9,Gabriel,Martinelli Silva,1,3,70,1,0,0,1,0,0,0,0,0,0,0,25,0.0,0.0,0.0,0.0,1,0.48,0.0,0.48,1.23,7,False,11,6.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 36,Lucas,Digne,2,2,73,0,0,0,1,0,0,0,0,0,0,0,7,12.8,33.0,9.0,5.5,1,0.23,0.15,0.38,1.35,2,False,11,13.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 54,Morgan,Rogers,2,3,90,0,0,0,2,0,0,0,1,0,0,0,2,4.2,28.5,6.0,3.9,1,0.22,0.03,0.25,2.02,1,False,11,7.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 82,Dominic,Solanke-Mitchell,18,4,90,0,0,0,2,0,0,0,0,0,0,0,6,0.0,0.0,0.0,0.0,1,0.38,0.02,0.4,1.74,2,False,11,11.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
-182,Cole,Palmer,6,3,20,0,0,0,0,0,0,0,0,0,0,0,7,0.0,0.0,0.0,0.0,1,0.02,0.0,0.02,0.22,1,False,11,8.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
+182,Cole,Palmer,6,3,86,0,0,0,1,0,0,0,0,0,0,0,7,0.0,0.0,0.0,0.0,1,0.15,0.01,0.16,0.95,2,False,11,8.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 255,Antonee,Robinson,9,2,90,0,0,1,0,0,0,0,0,0,0,0,24,12.4,18.5,10.0,4.1,1,0.06,0.05,0.11,1.52,6,False,11,3.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 306,Jamie,Vardy,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,11,10.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 317,Diogo,Teixeira da Silva,12,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,11,15.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
@@ -764,7 +764,7 @@ ID_x,First Name_x,Last Name_x,Team,Position,minutes,goals_scored,assists,clean_s
 508,Guglielmo,Vicario,18,1,90,0,0,0,2,0,0,0,0,0,1,0,1,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,1.74,1,False,11,1.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 578,Riccardo,Calafiori,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,11,14.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
 594,Noussair,Mazraoui,14,2,90,0,0,1,0,0,0,0,0,0,0,0,31,0.0,0.0,0.0,0.0,1,0.02,0.23,0.25,0.77,6,False,11,2.0,295362,297743,Lourenço,Marvão,LM,3,Los Porro Hermanos
-18,William,Saliba,1,2,20,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,15.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
+18,William,Saliba,1,2,86,0,0,0,1,0,0,0,0,0,0,0,15,0.0,0.0,0.0,0.0,1,0.0,0.01,0.01,1.3,2,False,11,15.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
 70,Milos,Kerkez,3,2,90,0,0,0,3,0,0,0,0,0,0,0,5,19.0,17.7,6.0,4.3,1,0.0,0.1,0.1,1.54,1,False,11,4.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
 83,Marcus,Tavernier,3,3,23,0,0,0,0,0,0,0,0,0,0,0,8,10.4,19.7,0.0,3.0,0,0.0,0.36,0.36,0.54,1,False,11,5.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
 110,Yoane,Wissa,4,4,90,2,0,0,2,0,0,0,0,0,0,3,60,67.4,6.0,46.0,11.9,1,0.62,0.02,0.64,2.6,13,True,11,9.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
@@ -779,8 +779,8 @@ ID_x,First Name_x,Last Name_x,Team,Position,minutes,goals_scored,assists,clean_s
 491,Brennan,Johnson,18,3,83,0,0,0,2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,1,0.77,0.02,0.79,1.72,2,False,11,7.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
 533,Rayan,Aït-Nouri,20,2,90,0,0,1,0,0,0,0,0,0,0,0,19,11.2,1.8,13.0,2.6,1,0.09,0.08,0.17,0.66,6,False,11,3.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
 618,Georginio,Rutter,5,3,65,0,0,0,1,0,0,0,0,0,0,0,-2,0.0,3.5,4.0,0.4,1,0.18,0.0,0.18,2.03,2,False,11,13.0,302714,305243,Clev,Clevinson Rodriguez,CC,2,Eze Come Eze Go
-3,Gabriel,dos Santos Magalhães,1,2,20,0,0,0,0,0,0,0,0,0,0,0,4,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,14.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
-4,Kai,Havertz,1,4,20,0,0,0,0,0,0,0,0,0,0,0,4,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,11.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
+3,Gabriel,dos Santos Magalhães,1,2,86,0,0,0,1,0,0,0,0,0,0,0,15,0.0,0.0,0.0,0.0,1,0.0,0.23,0.23,1.3,2,False,11,14.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
+4,Kai,Havertz,1,4,86,0,0,0,1,0,0,0,1,0,0,0,2,0.0,0.0,0.0,0.0,1,0.0,0.01,0.01,1.3,1,False,11,11.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
 268,Liam,Delap,10,4,69,1,1,0,1,0,0,0,1,0,0,0,41,0.0,0.0,0.0,0.0,1,0.99,0.04,1.03,1.28,8,False,11,10.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
 310,Alisson,Ramses Becker,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0,False,11,12.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
 311,Trent,Alexander-Arnold,12,2,24,0,0,0,0,0,0,0,0,0,0,0,6,4.2,11.3,0.0,1.6,1,0.0,0.03,0.03,0.19,1,False,11,2.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
@@ -794,13 +794,13 @@ ID_x,First Name_x,Last Name_x,Team,Position,minutes,goals_scored,assists,clean_s
 447,Chris,Wood,16,4,90,0,0,0,3,0,0,0,0,0,0,0,7,0.0,0.0,0.0,0.0,1,0.0,0.01,0.01,1.56,2,False,11,9.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
 492,Dejan,Kulusevski,18,3,90,0,0,0,2,0,0,0,0,0,0,0,12,0.0,0.0,0.0,0.0,1,0.0,0.34,0.34,1.74,2,False,11,6.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
 505,Destiny,Udogie,18,2,90,0,0,0,2,0,0,0,0,0,0,0,12,0.0,0.0,0.0,0.0,1,0.0,0.04,0.04,1.74,1,False,11,13.0,307954,310584,Tiago,Duarte,TD,4,Avengers Assemble
-6,Jurriën,Timber,1,2,20,0,0,0,0,0,0,0,0,0,0,0,4,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,5.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
-15,David,Raya Martin,1,1,20,0,0,0,0,0,0,0,0,0,1,0,6,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.1,1,False,11,12.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
-24,Benjamin,White,1,2,20,0,0,0,0,0,0,0,0,0,0,0,5,0.0,0.0,0.0,0.0,1,0.02,0.17,0.19,0.1,1,False,11,13.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
+6,Jurriën,Timber,1,2,86,0,0,0,1,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,1,0.04,0.0,0.04,1.3,2,False,11,5.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
+15,David,Raya Martin,1,1,86,0,0,0,1,0,0,0,0,0,2,0,10,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,1.3,2,False,11,12.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
+24,Benjamin,White,1,2,86,0,0,0,1,0,0,0,1,0,0,0,4,0.0,0.0,0.0,0.0,1,0.02,0.18,0.2,1.3,1,False,11,13.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 38,Jhon,Durán,2,4,25,0,0,0,1,0,0,0,0,0,0,0,3,2.2,0.3,2.0,0.5,0,0.0,0.0,0.0,0.84,1,False,11,11.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 88,Nathan,Collins,4,2,90,0,0,0,2,0,0,0,0,0,0,0,12,46.0,10.5,6.0,6.3,1,0.0,0.29,0.29,2.6,1,False,11,4.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 136,Mitoma,Kaoru,5,3,89,0,0,0,1,0,0,0,0,0,0,0,9,11.6,17.0,27.0,5.6,1,0.22,0.27,0.49,2.06,2,False,11,15.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
-180,Nicolas,Jackson,6,4,20,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.22,1,False,11,9.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
+180,Nicolas,Jackson,6,4,86,0,0,0,1,0,0,0,0,0,0,0,9,0.0,0.0,0.0,0.0,1,0.08,0.06,0.14,0.95,2,False,11,9.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 235,Jordan,Pickford,8,1,90,0,0,1,0,0,0,0,0,0,6,3,32,47.8,0.0,0.0,4.8,1,0.0,0.0,0.0,1.0,11,True,11,1.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 335,Andrew,Robertson,12,2,90,0,0,1,0,0,0,0,0,0,0,2,34,18.6,32.6,10.0,6.1,1,0.0,0.26,0.26,1.5,8,True,11,2.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 351,Erling,Haaland,13,4,90,1,0,0,2,0,0,0,1,0,0,0,26,33.6,0.9,87.0,12.2,1,1.38,0.0,1.38,2.29,5,False,11,10.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
@@ -809,7 +809,7 @@ ID_x,First Name_x,Last Name_x,Team,Position,minutes,goals_scored,assists,clean_s
 392,Harvey,Barnes,15,3,10,1,0,0,0,0,0,0,0,0,0,0,22,0.0,0.0,0.0,0.0,0,0.19,0.0,0.19,0.03,6,False,11,14.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 494,James,Maddison,18,3,6,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.02,1,False,11,8.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
 495,Pedro,Porro,18,2,90,0,1,0,2,0,0,0,0,0,0,0,16,0.0,0.0,0.0,0.0,1,0.0,0.17,0.17,1.74,4,False,11,3.0,318423,321105,Diogo,Santana,DS,1,De tu Madre FC
-17,Bukayo,Saka,1,3,20,0,0,0,0,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,1,0.01,0.0,0.01,0.1,1,False,11,8.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
+17,Bukayo,Saka,1,3,80,0,0,0,1,0,0,0,0,0,0,0,3,0.0,0.0,0.0,0.0,1,0.03,0.01,0.04,1.25,2,False,11,8.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
 19,Emile,Smith Rowe,9,3,88,1,0,1,0,0,0,0,0,0,0,3,40,47.2,38.7,29.0,11.5,1,0.18,0.05,0.23,1.5,11,True,11,7.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
 58,Ollie,Watkins,2,4,64,0,0,0,1,0,0,0,0,0,0,0,1,0.0,2.1,17.0,1.3,1,0.37,0.01,0.38,1.18,2,False,11,10.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2
 99,Bryan,Mbeumo,4,3,90,0,1,0,2,0,0,0,0,0,0,0,14,19.0,15.8,4.0,3.9,1,0.13,0.25,0.38,2.16,5,False,11,6.0,319681,322369,Bernardo,Moura,BM,5,Jurojocav2

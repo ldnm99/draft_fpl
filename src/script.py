@@ -7,8 +7,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import requests
 import csv
 from players import get_player_data
-from src.league  import get_league_standings
-from src.league  import get_user_teams
+from src.league  import get_league_standings,get_user_teams
 
 session = requests.session()
 
@@ -33,26 +32,22 @@ def merge_save_df(teams,league):
     df_final.to_csv(file_path, index=False) 
 
 def main():
-    print('Script started')
+    print('Data Script started')
 
     # Fetch and save league standings
+    print('Completed league standings fetch')
     league  = get_league_standings()
-    print('Completed league standings')
 
     # Fetch and save player data
     players = get_player_data()
-    print('Completed player data')
+    print('Completed player data fetch')
 
     # Fetch/merge and save user team
     users_teams = get_user_teams(players,league)
     merge_save_df(users_teams,league)
-    print('Completed users team')
+    print('Completed users team fetch')
 
-    # Fetch and save user transactions
-    #get_user_transactions(league_id)
-    #print('Completed users transactions')
-
-    print('Script finished')
+    print('Data Script finished')
     
 if __name__ == "__main__":
     main()

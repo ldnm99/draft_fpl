@@ -11,9 +11,9 @@ GW_URL              = f"{BASE_URL}/event/"
 
 #Gets all the players data and saves it into data folder
 def get_player_data():
-    from src.script import fetch_data
-    from src.script import save_csv
+    from src.script import fetch_data,save_csv
     data = fetch_data(PLAYER_DATA_URL)
+    
     if data:
         players = data.get('elements', [])
         player_data = [
@@ -32,6 +32,7 @@ def get_player_data():
 #Gets all the players data from a gameweek and returns a dataframe
 def get_player_gw_data(gameweek):
     from src.script import fetch_data
+
     data = fetch_data(GW_URL + str(gameweek) + "/live")
     records = []
     for player_id, value in data['elements'].items():
