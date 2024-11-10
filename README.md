@@ -19,7 +19,9 @@ The **Premier Draft League API Access** project is designed to simplify access t
 ## Requirements
 
 - Python 3.7 or higher
-- Requests library: `pip install requests`
+- [Requests](https://pypi.org/project/requests/): `pip install requests`
+- [Pandas](https://pypi.org/project/pandas/): `pip install pandas`
+
 
 ## Setup
 
