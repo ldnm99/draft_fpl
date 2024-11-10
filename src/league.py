@@ -1,5 +1,5 @@
 import pandas as pd
-from players import get_player_gw_data
+from src.players import get_player_gw_data
 
 BASE_URL            = "https://draft.premierleague.com/api"
 
@@ -20,14 +20,14 @@ ENTRY_URL           = f"{BASE_URL}/entry/"f"{LEAGUE_ID}"
 TRANSACTIONS_URL    = f"{ENTRY_URL}/transactions"
 
 def get_current_gw():
-    from script import fetch_data
+    from src.script import fetch_data
     data = fetch_data(GAME_STATUS_URL)
     current_gameweek = data['current_event']
     return current_gameweek
 
 def get_league_standings():
-    from script import fetch_data
-    from script import save_csv
+    from src.script import fetch_data
+    from src.script import save_csv
     data = fetch_data(LEAGUE_DETAILS_URL.format(league_id=LEAGUE_ID))
     if data:
         standings = data.get('league_entries', [])
@@ -46,8 +46,7 @@ def get_league_standings():
         return pd.DataFrame(columns=headers,data=standings_data)
     
 def get_user_teams(players, league):
-    from script import fetch_data
-    from script import save_csv
+    from src.script import fetch_data
     
     ids = league['team_id']
 
@@ -84,8 +83,8 @@ def get_user_teams(players, league):
     return final_df
 
 def get_user_transactions(league_id):
-    from script import fetch_data
-    from script import save_csv
+    from src.script import fetch_data
+    from src.script import save_csv
     league_data = fetch_data(LEAGUE_DETAILS_URL.format(league_id=league_id))
     
     if league_data:
