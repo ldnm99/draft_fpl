@@ -46,7 +46,7 @@ def main():
     users_teams = get_user_teams(players,league)
     merge_save_df(users_teams,league)
     print('Completed users team fetch')
-
+    
     print('Data Script finished')
     
 if __name__ == "__main__":
