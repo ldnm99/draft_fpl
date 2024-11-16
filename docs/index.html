@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Project Name</title>
+    <title>FPL DRAFT LEAGUE</title>
     
     <!-- Link to any external CSS if you have one -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Project!</h1>
-        <p>This is the home page of my project where you can see the graph and other details.</p>
+        <h1>There can be only one</h1>
+        <p>This is the home page of the FPL project where you can see the first league graph and the README.</p>
     </header>
 
     <main>
@@ -22,16 +22,43 @@
             <iframe src="Graphs\cumulative_points_chart.html" width="800" height="600" frameborder="0"></iframe>
         </section>
 
-        <!-- Optionally include README content (or link to it) -->
+        <!-- Section for README content -->
         <section id="readme-section">
             <h2>Project Overview</h2>
-            <p>This section could contain a brief overview or link to the README file.</p>
-            <p>You can view the detailed project documentation in the <a href="README.md" target="_blank">README.md</a> file.</p>
+            <p>The <strong>Premier Draft League API Access</strong> project is designed to simplify access to Fantasy Premier League Draft data, enabling developers and fantasy sports enthusiasts to retrieve information such as:</p>
+            <ul>
+                <li>Player details and statistics</li>
+                <li>League standings</li>
+                <li>Entry-level data for individual players in a league (change the LEAGUE_ID to yours in league.py)</li>
+            </ul>
+
+            <h2>Features</h2>
+            <ul>
+                <li>Fetch and process real-time Fantasy Premier League Draft data.</li>
+                <li>Access data for individual players, teams, and leagues.</li>
+                <li>View draft history, and player stats.</li>
+                <li>Flexible and easy-to-use Python scripts for custom applications.</li>
+            </ul>
+
+            <h2>Requirements</h2>
+            <ul>
+                <li>Python 3.7 or higher</li>
+                <li><a href="https://pypi.org/project/requests/">Requests</a>: <code>pip install requests</code></li>
+                <li><a href="https://pypi.org/project/pandas/">Pandas</a>: <code>pip install pandas</code></li>
+            </ul>
+
+            <h2>Setup</h2>
+            <ol>
+                <li><strong>Clone the Repository</strong>
+                    <pre><code>git clone https://github.com/ldnm99/draft_fpl.git
+cd draft_fpl</code></pre>
+                </li>
+            </ol>
         </section>
     </main>
 
     <footer>
-        <p>&copy; There can be only one </p>
+        <p>&copy; There can be only one</p>
     </footer>
 </body>
 </html>
