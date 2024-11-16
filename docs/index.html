@@ -3,26 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FPL DRAFT LEAGUE</title>
-    
-    <!-- Link to any external CSS if you have one -->
-    <link rel="stylesheet" href="styles.css">
+    <title>FPL Draft League</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        iframe {
+            width: 100%;
+            border: none;
+            height: 300px;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>There can be only one</h1>
-        <p>This is the home page of the FPL project where you can see the first league graph and the README.</p>
+        <h1>FPL Draft League</h1>
     </header>
 
-    <main>
-        <!-- Section for your graph -->
-        <section id="graph-section">
-            <h2>Graph Visualization</h2>
-            <iframe src="Graphs\cumulative_points_chart.html" width="800" height="600" frameborder="0"></iframe>
+    <nav>
+        <a href="#overview">Overview</a>
+    </nav>
+
+    <div class="container">
+        <section id="overview">
+            <h2>League Overview</h2>
+            <p>Welcome to the FPL Draft League! This is a competitive fantasy football league where managers draft their teams and compete against each other throughout the Premier League season.</p>
         </section>
 
-        <!-- Section for README content -->
+        <section id="standings">
+            <h2>Team Standings</h2>
+            <iframe src="Graphs/league_standings.html"></iframe>
+        </section>
+        <section id="standings graph">
+            <h2>Team Standings per gameweek</h2>
+            <iframe src="Graphs/cumulative_points_chart.html"></iframe>
+        </section>
         <section id="readme-section">
             <h2>Project Overview</h2>
             <p>The <strong>Premier Draft League API Access</strong> project is designed to simplify access to Fantasy Premier League Draft data, enabling developers and fantasy sports enthusiasts to retrieve information such as:</p>
@@ -55,10 +137,11 @@ cd draft_fpl</code></pre>
                 </li>
             </ol>
         </section>
-    </main>
+    </div>
 
     <footer>
-        <p>&copy; There can be only one</p>
+        <p>&copy; 2024 FPL Draft League. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
