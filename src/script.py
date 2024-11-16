@@ -28,8 +28,36 @@ def save_csv(filename, headers, rows):
 
 def merge_save_df(teams,league):
     df_final = teams.merge(league, on='team_id', how='left')
-    file_path = 'Data/teams_players.csv'
+    file_path = 'docs/Data/teams_players.csv'
     df_final.to_csv(file_path, index=False) 
+    return df_final
+
+def create_htmls(standings):
+    standings_html = standings.to_html(index =False)
+    with open('docs/league_standings.html', 'w') as f:
+        f.write(standings_html)
+
+def league_standings(df_final):
+    # Filter players by teams with positions less than 12
+    filtered_df = df_final[df_final['team_position'] < 12]
+    
+    # Group by team and gameweek, then sum points for each gameweek
+    grouped = (
+        filtered_df.groupby(['Team Name', 'gameweek'])['total_points']
+        .sum()
+        .reset_index()
+    )
+    
+    # Calculate cumulative points for each team
+    grouped['cumulative_points'] = grouped.groupby('Team Name')['total_points'].cumsum()
+    
+    # Get the latest cumulative points for each team
+    result_df = grouped.groupby('Team Name')['cumulative_points'].max().reset_index()
+    result_df.columns = ['Equipa', 'Pontos']
+    result_df = result_df.sort_values(by=['Pontos'], ascending=False).reset_index(drop=True)
+    return result_df
+
+
 
 def main():
     print('Data Script started')
@@ -44,10 +72,16 @@ def main():
 
     # Fetch/merge and save user team
     users_teams = get_user_teams(players,league)
-    merge_save_df(users_teams,league)
+    final_df = merge_save_df(users_teams,league)
     print('Completed users team fetch')
     
     print('Data Script finished')
+
+    standings = league_standings(final_df)
+    print(standings)
+    create_htmls(standings)
+
+
     
 if __name__ == "__main__":
     main()

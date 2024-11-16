@@ -40,7 +40,7 @@ def get_league_standings():
             for entry in standings
         ]
         headers = ['team_id', 'ID','First Name', 'Last Name','short_name','waiver_pick','Team Name']
-        save_csv('Data/league_standings.csv', headers, standings_data)
+        save_csv('docs/Data/league_standings.csv', headers, standings_data)
         return pd.DataFrame(columns=headers,data=standings_data)
     
 #Returns the teams of each league member for each gameweek and saves into a CSV file

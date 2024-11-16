@@ -26,7 +26,7 @@ def get_player_data():
         ]
         headers = ['ID', 'First Name', 'Last Name', 'Team', 'Position', 'Assists', 'bonus', 'Total points', 'xA', 'CS', 'Gc', 'Goals Scored', 'minutes',
                    'red_cards', 'starts', 'xG', 'xGi','xGc','code','PpG']
-        save_csv('Data/players_data.csv', headers, player_data)
+        save_csv('docs/Data/players_data.csv', headers, player_data)
         return pd.DataFrame(columns=headers,data=player_data)
 
 #Gets all the players data from a gameweek and returns a dataframe
