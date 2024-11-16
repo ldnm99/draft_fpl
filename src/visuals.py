@@ -4,7 +4,7 @@ import plotly.express as px
 DATA = {}
 
 def create_visuals():
-    DATA = pd.read_csv('Data/teams_players.csv')
+    DATA = pd.read_csv('docs/Data/teams_players.csv')
     DATA['Cumulative Points'] = DATA.groupby('team_id')['total_points'].cumsum()
 
     fig_league = px.line(
@@ -16,7 +16,7 @@ def create_visuals():
     labels={'gameweek': 'Gameweek', 'Cumulative Points': 'Cumulative Points'},
     hover_name='Team Name'
     )
-    fig_league.write_html("Graphs/cumulative_points_chart.html")
+    fig_league.write_html("docs/Graphs/cumulative_points_chart.html")
 
 def main():
     create_visuals()    
