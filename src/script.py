@@ -66,14 +66,12 @@ def create_htmls(standings):
     </style>
     """
 
-    # Add a title and inject the CSS into the HTML
     full_html = f"""
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>League Standings</title>
         {custom_css}
     </head>
     <body>
