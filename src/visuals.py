@@ -5,14 +5,16 @@ DATA = {}
 
 def create_visuals():
     DATA = pd.read_csv('docs/Data/teams_players.csv')
-    DATA['Cumulative Points'] = DATA.groupby('team_id')['total_points'].cumsum()
+    DATA = DATA.sort_values(by=['team_id', 'gameweek'])
+    players_played = DATA[DATA['team_position'] < 12]
+    result = players_played.groupby(['gameweek', 'Team Name'])['total_points'].sum().reset_index()
 
     fig_league = px.line(
-    DATA,
+    result,
     x='gameweek',
-    y='Cumulative Points',
+    y='total_points',
     color='Team Name',
-    labels={'gameweek': 'Gameweek', 'Cumulative Points': 'Points'},
+    labels={'gameweek': 'Gameweek', 'total_points': 'Points'},
     hover_name='Team Name',
     line_shape='linear'
     )

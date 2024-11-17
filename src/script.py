@@ -82,7 +82,7 @@ def create_htmls(standings):
     </body>
     </html>
     """
-    with open('docs/league_standings.html', 'w') as f:
+    with open('docs/Graphs/league_standings.html', 'w') as f:
         f.write(full_html)
 
 def league_standings(df_final):
@@ -105,8 +105,6 @@ def league_standings(df_final):
     result_df = result_df.sort_values(by=['Pontos'], ascending=False).reset_index(drop=True)
     return result_df
 
-
-
 def main():
     print('Data Script started')
 
@@ -127,8 +125,6 @@ def main():
 
     standings = league_standings(final_df)
     create_htmls(standings)
-
-
     
 if __name__ == "__main__":
     main()
