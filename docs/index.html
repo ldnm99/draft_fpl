@@ -9,139 +9,94 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* White text */
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #000000; /* Black header */
+            color: #ffffff;
             text-align: center;
+            padding: 20px;
         }
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
         }
         .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        table {
+        h2 {
+            color: #e0e0e0; /* Light gray text for headings */
+        }
+        .standings-section {
+            margin: 30px 0;
+        }
+        .standings-section img {
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+            max-width: 500px;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
         }
-        table, th, td {
-            border: 1px solid #ddd;
+        .team-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
         }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .contact-form {
-            margin-top: 20px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-        }
-        .contact-form button {
-            background-color: #333;
-            color: #fff;
+        .team-buttons button {
+            background-color: #333333; /* Dark button background */
+            color: #ffffff; /* White text */
+            border: 1px solid #ffffff;
             padding: 10px 20px;
-            border: none;
+            font-size: 1em;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .team-buttons button:hover {
+            background-color: #444444; /* Slightly lighter background on hover */
         }
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #000000;
+            color: #ffffff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
+            padding: 15px 0;
+            position: relative;
             bottom: 0;
-        }
-        iframe {
             width: 100%;
-            border: none;
-            height: 300px;
         }
     </style>
 </head>
 <body>
-
     <header>
         <h1>FPL Draft League</h1>
+        <p><strong>There Can Be Only One</strong></p>
     </header>
-
-    <nav>
-        <a href="#overview">Overview</a>
-    </nav>
-
     <div class="container">
-        <section id="overview">
-            <h2>League Overview</h2>
-            <p>Welcome to the FPL Draft League! This is a competitive fantasy football league where managers draft their teams and compete against each other throughout the Premier League season.</p>
+        <section class="standings-section">
+            <h2>Current League Standings</h2>
+            <img src="Graphs/league_standings.html" alt="League Standings Graph">
         </section>
-
-        <section id="standings">
-            <h2>Team Standings</h2>
-            <iframe src="Graphs/league_standings.html"></iframe>
+        <section class="standings-section">
+            <h2>League Standings per Gameweek</h2>
+            <img src="Graphs/cumulative_points_chart.html" alt="Gameweek Standings Graph">
         </section>
-        <section id="standings graph">
-            <h2>Team Standings per gameweek</h2>
-            <iframe src="Graphs/cumulative_points_chart.html"></iframe>
-        </section>
-        <section id="readme-section">
-            <h2>Project Overview</h2>
-            <p>The <strong>Premier Draft League API Access</strong> project is designed to simplify access to Fantasy Premier League Draft data, enabling developers and fantasy sports enthusiasts to retrieve information such as:</p>
-            <ul>
-                <li>Player details and statistics</li>
-                <li>League standings</li>
-                <li>Entry-level data for individual players in a league (change the LEAGUE_ID to yours in league.py)</li>
-            </ul>
-
-            <h2>Features</h2>
-            <ul>
-                <li>Fetch and process real-time Fantasy Premier League Draft data.</li>
-                <li>Access data for individual players, teams, and leagues.</li>
-                <li>View draft history, and player stats.</li>
-                <li>Flexible and easy-to-use Python scripts for custom applications.</li>
-            </ul>
-
-            <h2>Requirements</h2>
-            <ul>
-                <li>Python 3.7 or higher</li>
-                <li><a href="https://pypi.org/project/requests/">Requests</a>: <code>pip install requests</code></li>
-                <li><a href="https://pypi.org/project/pandas/">Pandas</a>: <code>pip install pandas</code></li>
-            </ul>
-
-            <h2>Setup</h2>
-            <ol>
-                <li><strong>Clone the Repository</strong>
-                    <pre><code>git clone https://github.com/ldnm99/draft_fpl.git
-cd draft_fpl</code></pre>
-                </li>
-            </ol>
+        <section>
+            <h2>Team's Data</h2>
+            <div class="team-buttons">
+                <button>Avengers Assemble</button>
+                <button>Eze Come Eze Go</button>
+                <button>Jurojcav2</button>
+                <button>De tu Madre FC</button>
+                <button>Los Porro Hermanos</button>
+            </div>
         </section>
     </div>
-
     <footer>
-        <p>&copy; 2024 FPL Draft League. All rights reserved.</p>
+        <p>&copy; 2024 FPL Loure. All rights reserved.</p>
+        <p>This website is not officially affiliated with Fantasy Premier League.</p>
     </footer>
-
 </body>
 </html>
