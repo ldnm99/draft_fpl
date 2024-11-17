@@ -38,10 +38,13 @@ def create_visuals2():
     players_played = DATA[DATA['team_position'] < 12].copy()  # Use .copy() to avoid SettingWithCopyWarning
 
     # Calculate cumulative points
-    players_played['cumulative_points'] = players_played.groupby(['Team Name', 'gameweek'])['total_points'].cumsum()
+    team_points_per_gameweek = players_played.groupby(['Team Name', 'gameweek'])['total_points'].sum().reset_index()
 
-    # Sort the DataFrame
-    sorted_df = players_played.sort_values(by=['gameweek', 'Team Name'])
+    # Calculate cumulative points for each team
+    team_points_per_gameweek['cumulative_points'] = team_points_per_gameweek.groupby('Team Name')['total_points'].cumsum()
+
+    # Sort the DataFrame for better readability
+    sorted_df = team_points_per_gameweek.sort_values(by=['gameweek', 'Team Name'])
 
     # Create the line chart
     fig_league = px.line(
@@ -61,7 +64,7 @@ def create_visuals2():
                       "Cumulative Points: %{y}<br>" +
                       "<extra></extra>"
     )
-
+    
     # Save the chart as an HTML file
     fig_league.write_html("docs/Graphs/cumulative_points_chart.html")
 
