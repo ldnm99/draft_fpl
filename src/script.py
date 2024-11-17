@@ -75,7 +75,6 @@ def create_htmls(standings):
         {custom_css}
     </head>
     <body>
-        <h2 style="text-align: center;">Current League Standings</h2>
         {standings_html}
     </body>
     </html>
