@@ -3,6 +3,7 @@ import plotly.express as px
 
 DATA = {}
 
+# for points per gameweek
 def create_visuals():
     DATA = pd.read_csv('docs/Data/teams_players.csv')
     DATA = DATA.sort_values(by=['team_id', 'gameweek'])
@@ -25,10 +26,48 @@ def create_visuals():
                   "Points: %{y}<br>" +
                   "<extra></extra>"
     )
+    fig_league.write_html("docs/Graphs/gameweek_points_chart.html")
+
+
+# for cumulative points per gameweek
+def create_visuals2():
+    # Load the data
+    DATA = pd.read_csv('docs/Data/teams_players.csv')
+
+    # Filter players with team_position < 12
+    players_played = DATA[DATA['team_position'] < 12].copy()  # Use .copy() to avoid SettingWithCopyWarning
+
+    # Calculate cumulative points
+    players_played['cumulative_points'] = players_played.groupby(['Team Name', 'gameweek'])['total_points'].cumsum()
+
+    # Sort the DataFrame
+    sorted_df = players_played.sort_values(by=['gameweek', 'Team Name'])
+
+    # Create the line chart
+    fig_league = px.line(
+        sorted_df,
+        x='gameweek',
+        y='cumulative_points',  # Use cumulative_points for visualization
+        color='Team Name',
+        labels={'gameweek': 'Gameweek', 'cumulative_points': 'Cumulative Points'},
+        hover_name='Team Name',
+        line_shape='linear'
+    )
+
+    # Customize the tooltip template
+    fig_league.update_traces(
+        hovertemplate="<b>%{hovertext}</b><br><br>" +
+                      "Gameweek: %{x}<br>" +
+                      "Cumulative Points: %{y}<br>" +
+                      "<extra></extra>"
+    )
+
+    # Save the chart as an HTML file
     fig_league.write_html("docs/Graphs/cumulative_points_chart.html")
 
 def main():
     create_visuals()    
+    create_visuals2()  
     
 if __name__ == "__main__":
     main()
