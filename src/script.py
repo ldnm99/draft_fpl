@@ -83,7 +83,7 @@ def create_htmls(standings):
     </html>
     """
     with open('docs/league_standings.html', 'w') as f:
-        f.write(standings_html)
+        f.write(full_html)
 
 def league_standings(df_final):
     # Filter players by teams with positions less than 12
@@ -126,7 +126,6 @@ def main():
     print('Data Script finished')
 
     standings = league_standings(final_df)
-    print(standings)
     create_htmls(standings)
 
 
