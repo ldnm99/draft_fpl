@@ -12,8 +12,7 @@ def create_visuals():
     x='gameweek',
     y='Cumulative Points',
     color='Team Name',
-    title="Cumulative Points by Gameweek for Each Team",
-    labels={'gameweek': 'Gameweek', 'Cumulative Points': 'Cumulative Points'},
+    labels={'gameweek': 'Gameweek', 'Cumulative Points': 'Points'},
     hover_name='Team Name',
     line_shape='linear'
     )

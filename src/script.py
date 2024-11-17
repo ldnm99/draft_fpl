@@ -34,6 +34,54 @@ def merge_save_df(teams,league):
 
 def create_htmls(standings):
     standings_html = standings.to_html(index =False)
+     # Define custom CSS for styling
+    custom_css = """
+    <style>
+        body {
+            background-color: black; /* Dark background */
+            color: white; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 60%;
+            margin: 20px auto; /* Center the table */
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid white; /* White borders */
+            padding: 10px;
+            text-align: center; /* Center-align content */
+        }
+        th {
+            background-color: #444; /* Dark grey for headers */
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #222; /* Slightly lighter grey for odd rows */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #333; /* Darker grey for even rows */
+        }
+    </style>
+    """
+
+    # Add a title and inject the CSS into the HTML
+    full_html = f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>League Standings</title>
+        {custom_css}
+    </head>
+    <body>
+        <h2 style="text-align: center;">Current League Standings</h2>
+        {standings_html}
+    </body>
+    </html>
+    """
     with open('docs/league_standings.html', 'w') as f:
         f.write(standings_html)
 
