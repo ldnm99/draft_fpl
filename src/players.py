@@ -1,4 +1,5 @@
 import pandas as pd
+from src.utils import fetch_data,save_csv
 
 # Define URLs
 BASE_URL            = "https://draft.premierleague.com/api"
@@ -6,12 +7,9 @@ BASE_URL            = "https://draft.premierleague.com/api"
 #Player data endpoint
 PLAYER_DATA_URL     = f"{BASE_URL}/bootstrap-static"
 
-#Player data from a gameweek endpoint
-GW_URL              = f"{BASE_URL}/event/"
-
 #Gets all the players data and saves it into data folder
 def get_player_data():
-    from src.script import fetch_data,save_csv
+
     data = fetch_data(PLAYER_DATA_URL)
     
     if data:
@@ -27,19 +25,5 @@ def get_player_data():
         headers = ['ID', 'First Name', 'Last Name', 'Team', 'Position', 'Assists', 'bonus', 'Total points', 'xA', 'CS', 'Gc', 'Goals Scored', 'minutes',
                    'red_cards', 'starts', 'xG', 'xGi','xGc','code','PpG']
         save_csv('docs/Data/players_data.csv', headers, player_data)
-        return pd.DataFrame(columns=headers,data=player_data)
-
-#Gets all the players data from a gameweek and returns a dataframe
-def get_player_gw_data(gameweek):
-    from src.script import fetch_data
-
-    data = fetch_data(GW_URL + str(gameweek) + "/live")
-    records = []
-    for player_id, value in data['elements'].items():
-        stats = value['stats']
-        stats['ID'] = player_id  # Add player ID to stats
-        stats['gameweek'] = gameweek  # Add gameweek number
-        records.append(stats)
-    df = pd.DataFrame(records)
-    return df
-       
+        print("Player data successfully retrieved.")
+        return pd.DataFrame(columns=headers,data=player_data) 
