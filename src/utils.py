@@ -24,9 +24,3 @@ def save_csv(filename, headers, rows):
         csv_writer.writerow(headers)
         csv_writer.writerows(rows)
     
-def merge_save_df(teams,league):
-    df_final = teams.merge(league, on='manager_id', how='left')
-    file_path = 'docs/Data/teams_players.csv'
-    df_final.to_csv(file_path, index=False) 
-    print("User team data successfully processed and saved.")
-    return df_final

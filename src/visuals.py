@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 
 DATA = {}
 
-def create_standings_html(standings):
+def create_standings_html():
     """Generates an HTML file from the given standings DataFrame with custom CSS styling.
     Args:
         standings (pandas.DataFrame): A DataFrame containing the standings data to be converted to HTML.
@@ -13,8 +13,7 @@ def create_standings_html(standings):
     The generated HTML file is saved to 'docs/Graphs/league_standings.html' and includes custom CSS for styling the table.
     """
 
-    standings_html = standings.to_html(index =False)
-     # Define custom CSS for styling
+    # Define custom CSS for styling
     custom_css = """
     <style>
         body {
@@ -55,10 +54,11 @@ def create_standings_html(standings):
         {custom_css}
     </head>
     <body>
-        {standings_html}
+        <iframe src="docs/Graphs/league_standings.html" width="100%" height="600px"></iframe>
     </body>
     </html>
     """
+    
     with open('docs/Graphs/league_standings.html', 'w') as f:
         f.write(full_html)
     print("HTML reports successfully generated.")
